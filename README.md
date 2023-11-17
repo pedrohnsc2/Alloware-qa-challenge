@@ -1,4 +1,4 @@
-![picture alt](images\aloware.webp "Alloware Logo")
+![picture alt](images/aloware.webp "Alloware Logo")
 
 # QA Challenge for Aloware
 [![E2E library: Cypress](https://img.shields.io/badge/E2E%20Framework-Cypress-blue)](https://www.cypress.io/)
@@ -46,4 +46,4 @@ npm run cy:run
 
 [License MIT](/LICENSE)
 
-![picture alt](images\testScreenshot.png "Test Result")
+![picture alt](images/testScreenshot.png "Test Result")
