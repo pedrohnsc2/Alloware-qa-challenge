@@ -1,0 +1,41 @@
+Functionality Tests:
+
+Test Case: Verify that the "Name" field accepts alphabetic and space characters.
+Test Case: Verify that the "Phone" field accepts only valid phone number formats.
+Test Case: Verify that the "Email" field accepts valid email formats and rejects invalid ones.
+Test Case: Verify that the "Message" text area allows input and has a character limit (if applicable).
+Test Case: Verify that the "I'm not a robot" reCAPTCHA functions correctly and validates user interactions.
+Test Case: Verify that the "Send" button submits the form when all fields are filled correctly.
+Test Case: Verify that an appropriate error message is shown when trying to submit an incomplete or incorrectly filled form.
+Test Case: Check if the form supports and correctly handles the use of keyboard navigation and shortcuts.
+Test Case: Verify the form's response time upon submission.
+Test Case: Verify that the data entered in the form is received on the server-side (requires backend access or a mock server).
+
+Usability Tests:
+
+Test Case: Check that the form fields have placeholders or labels that accurately describe the expected input.
+Test Case: Ensure that the tab order of the form fields is logical and sequential.
+Test Case: Verify that the error messages are clear, helpful, and guide the user to correct the submission.
+Test Case: Test the visibility and readability of text in the "Contact us" form on various devices.
+Test Case: Verify that the "Send" button is disabled until the "I'm not a robot" reCAPTCHA is successfully completed.
+
+Compatibility Tests:
+
+Test Case: Ensure the landing page and form display correctly across different web browsers (Chrome, Firefox, Edge, Safari, etc.).
+Test Case: Test the landing page on different devices (desktop, tablet, mobile) to ensure responsive design.
+Test Case: Verify the landing page in different operating systems (Windows, macOS, Linux, iOS, Android).
+Test Case: Ensure the form is compatible with various screen resolutions.
+Test Case: Check the form's functionality with different network speeds and conditions.
+
+Performance Tests:
+
+Test Case: Check the load time of the landing page.
+Test Case: Monitor the performance of the landing page under high traffic using load testing tools.
+Test Case: Verify that the form submission process does not cause any unexpected delays or timeouts.
+Test Case: Test the landing page's behavior under stress conditions.
+
+Security Tests:
+
+Test Case: Ensure that the reCAPTCHA is secure and cannot be bypassed by bots.
+Test Case: Test for SQL injection vulnerabilities in the form inputs.
+Test Case: Verify that the form data is transmitted over HTTPS to ensure encryption.
